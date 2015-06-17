@@ -14,6 +14,8 @@
 		5E13D8931B30AD9A0076C4B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E13D8921B30AD9A0076C4B5 /* Images.xcassets */; };
 		5E13D8961B30AD9A0076C4B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E13D8941B30AD9A0076C4B5 /* LaunchScreen.xib */; };
 		5E13D8A21B30AD9A0076C4B5 /* Three_Low_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E13D8A11B30AD9A0076C4B5 /* Three_Low_2Tests.m */; };
+		5E13D8B01B30C49E0076C4B5 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E13D8AF1B30C49E0076C4B5 /* Game.m */; };
+		5E13D8B31B30D9C40076C4B5 /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E13D8B21B30D9C40076C4B5 /* Dice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		5E13D89B1B30AD9A0076C4B5 /* Three Low 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Three Low 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E13D8A01B30AD9A0076C4B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E13D8A11B30AD9A0076C4B5 /* Three_Low_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Three_Low_2Tests.m; sourceTree = "<group>"; };
+		5E13D8AE1B30C49E0076C4B5 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		5E13D8AF1B30C49E0076C4B5 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		5E13D8B11B30D9C40076C4B5 /* Dice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
+		5E13D8B21B30D9C40076C4B5 /* Dice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				5E13D88A1B30AD9A0076C4B5 /* AppDelegate.m */,
 				5E13D88C1B30AD9A0076C4B5 /* ViewController.h */,
 				5E13D88D1B30AD9A0076C4B5 /* ViewController.m */,
+				5E13D8AE1B30C49E0076C4B5 /* Game.h */,
+				5E13D8AF1B30C49E0076C4B5 /* Game.m */,
+				5E13D8B11B30D9C40076C4B5 /* Dice.h */,
+				5E13D8B21B30D9C40076C4B5 /* Dice.m */,
 				5E13D88F1B30AD9A0076C4B5 /* Main.storyboard */,
 				5E13D8921B30AD9A0076C4B5 /* Images.xcassets */,
 				5E13D8941B30AD9A0076C4B5 /* LaunchScreen.xib */,
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E13D8B31B30D9C40076C4B5 /* Dice.m in Sources */,
 				5E13D88E1B30AD9A0076C4B5 /* ViewController.m in Sources */,
 				5E13D88B1B30AD9A0076C4B5 /* AppDelegate.m in Sources */,
 				5E13D8881B30AD9A0076C4B5 /* main.m in Sources */,
+				5E13D8B01B30C49E0076C4B5 /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
